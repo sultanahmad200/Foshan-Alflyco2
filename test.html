@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="./img/1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="test.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Alflyco.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact Us</a>
+            
+        </nav>
+
+        <div class="bx bx-moon" id="darkmode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+<div class="sliderhome">
+
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
+        space-between="30" centered-slides="true" autoplay-delay="2000" autoplay-disable-on-interaction="false">
+
+        <swiper-slide><img src="./img/1.jpg" alt="" ></swiper-slide>
+        <swiper-slide><img src="./img/1.jpg" alt="" ></swiper-slide>
+    
+    </swiper-container>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>
